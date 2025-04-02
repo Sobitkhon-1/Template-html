@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./template.css">
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    .container{
+        margin: 0 auto;
+    }
+     .header-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        height: 180px;
+        background-color: rgb(57, 51, 51);
+     }
+     .header-list{
+        display: flex;
+        gap: 20px;
+        margin-left: 150px;
+     }
+     .header-h1{
+        color: beige;
+     }
+    .header-link{
+    color: beige;
+    }
+    .header-img{
+        display: block;
+        margin: auto;
+        margin-top: -40px;
+    }
+    .hero-card{
+        display: flex;
+        justify-content: center;
+        margin: 40px;
+    }
+    .hero-card1{
+        width: 500px;
+        height: 300px;
+    }
+    span{
+        color: rgb(11, 100, 11);
+    }
+    .hero-card2{
+        width: 200px;
+        padding-left: 40px;
+    }
+    .category-list{
+        list-style-type:square;
+        margin-top: 10px;
+        margin-left: 15px;
+        font-weight: 400;
+
+     }
+    .hero-p{
+        margin-top: 30px;
+    }
+
+    .wrapper-container{
+        margin: 30px;
+    }
+    .flex-cards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .flex-card1{
+        width: 200px;
+        height: 150px;
+        background-image: linear-gradient(to bottom, lightgrey, rgb(65, 65, 65)) ; 
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    
+    }
+    .flex-card2{
+        width: 200px;
+        height: 150px;
+        background-image: linear-gradient(to bottom, lightblue, darkblue) ; 
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    
+    }
+    .flex-card3{
+        width: 200px;
+        height: 150px;
+        background-image: linear-gradient(to bottom, lightgreen, darkgreen);
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .flex-card4{
+        width: 200px;
+        height: 150px;
+        background-image: linear-gradient(to bottom, lightyellow, yellow) ; 
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(57, 51, 51);
+        height: 120px;
+    }
+    .footer-list{
+        display: flex;
+        gap: 20px;
+        margin-left: 150px;
+     }
+     .footer-link{
+    color: beige;
+    }
+</style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <div class="header-container">
+               <a href=""> <h1 class="header-h1">Company logo</h1></a>
+               <ul class="header-list">
+                <li class="header-item"><a class="header-link" href="">HOME</a></li>
+                <li class="header-item"><a class="header-link" href="">PROJECTS</a></li>
+                <li class="header-item"><a class="header-link" href="">ABOUT</a></li>
+                <li class="header-item"><a class="header-link" href="">LINKS</a></li>
+                <li class="header-item"><a class="header-link" href="">CONTACT</a></li>
+              </ul>
+            </div>
+        </div>
+    </div>
+ <img class="header-img"  src="./header.jpg" alt="">
+    <div class="hero-card">
+        <div class="hero-card1">
+            <h1><span>Welcome To</span> Our Site</h1>
+            <p class="hero-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+               Perspiciatis quam inventore cum dolorum expedita? Nam totam 
+               doloremque impedit repudiandae saepe deleniti, 
+               ad ratione earum facere nisi fuga! Debitis, veritatis tenetur! Lorem ipsum dolor,
+               sit amet consectetur adipisicing elit. Nisi nesciunt
+               cupiditate odit voluptatem suscipit hic eveniet nemo exercitationem earum assumenda?
+            </p>
+            <p class="hero-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+               Perspiciatis quam inventore cum dolorum expedita? Nam totam 
+               doloremque impedit repudiandae saepe deleniti, 
+               ad ratione earum facere nisi fuga! Debitis, veritatis tenetur! Lorem ipsum dolor sit 
+               amet consectetur adipisicing elit. Earum dolorum impedit ex vero,
+               excepturi repudiandae eaque quis. Asperiores, consequuntur ipsam.
+           </p>
+
+        </div>
+        <div class="hero-card2">
+            <h1>Categories</h1>
+            <ul style="list-style-type:square;">
+                <li class="category-list"><a href=""> List Item 1</a></li>
+                <li class="category-list"><a href=""> List Item 2</a></li>
+                <li class="category-list"><a href=""> List Item 3</a></li>
+                <li class="category-list"><a href=""> List Item 4</a></li>
+                <li class="category-list"><a href=""> List Item 5</a></li>
+                <li class="category-list"> <a href="">List Item 6</a></li>
+                <li class="category-list"><a href="">List Item 7</a> </li>
+                <li class="category-list"><a href="">List Item 8</a> </li>
+            </ul>
+        </div>
+    </div>
+<div class="flex-container">
+    <ul class="flex-cards">
+        <li class="flex-card1"> <h3>Lorem, ipsum dolor.</h3><p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Accusantium sequi </p>
+            <a href="">read more</a>
+        </li>
+        <li class="flex-card2"><h3>Lorem, ipsum dolor.</h3><p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Accusantium sequi </p>
+            <a href="">read more</a>
+        </li>
+        <li class="flex-card3"><h3>Lorem, ipsum dolor.</h3><p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Accusantium sequi</p>
+            <a href="">read more</a>
+        </li>
+        <li class="flex-card4"><h3>Lorem, ipsum dolor.</h3><p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Accusantium sequi</p>
+            <a  href="">read more</a>
+        </li>
+    </ul>
+</div>
+<div class="footer">
+    <div class="footer-left">
+        <strong style="color: beige; ">Contact Info</strong>
+        <p style="width: 200px; color: beige;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, optio!</p>
+    </div>
+    <div class="footer-right">
+        <ul class="footer-list">
+            <li><a class="footer-link" href="">Home</a></li>
+            <li><a class="footer-link" href="">Projects</a></li>
+            <li><a class="footer-link" href="">About</a></li>
+            <li><a class="footer-link"  href="">Link</a></li>
+            <li><a class="footer-link" href="">Contact</a></li>
+
+        </ul>
+    </div>
+</div>
+
+
+
+</body>
+</html>
